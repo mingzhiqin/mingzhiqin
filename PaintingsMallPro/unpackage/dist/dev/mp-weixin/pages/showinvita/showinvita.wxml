@@ -1,0 +1,1 @@
+<view class="content"><image class="imgBg" src="{{ewmImg}}" mode="widthFix"></image><button data-event-opts="{{[['tap',[['saveEwm',['$event']]]]]}}" class="button" style="position:fixed;bottom:0;" bindtap="__e">保存图片</button></view>

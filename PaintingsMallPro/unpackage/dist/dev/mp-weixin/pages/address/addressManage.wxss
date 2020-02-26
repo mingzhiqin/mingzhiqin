@@ -1,0 +1,168 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+page {
+  background: #f8f8f8;
+  padding-top: 16rpx;
+}
+.txtloc {
+  font-size: 30rpx;
+  color: #909399;
+}
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  padding: 0 30rpx;
+  height: 110rpx;
+  background: #fff;
+}
+.row .tit {
+    -webkit-flex-shrink: 0;
+        -ms-flex-negative: 0;
+            flex-shrink: 0;
+    width: 180rpx;
+    font-size: 30rpx;
+    color: #303133;
+}
+.row .input {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    font-size: 30rpx;
+    color: #303133;
+}
+.row .icon-shouhuodizhi {
+    font-size: 36rpx;
+    color: #909399;
+}
+.default-row {
+  margin-top: 16rpx;
+}
+.default-row .tit {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+}
+.default-row switch {
+    -webkit-transform: translateX(16rpx) scale(0.9);
+        -ms-transform: translateX(16rpx) scale(0.9);
+            transform: translateX(16rpx) scale(0.9);
+}
+.add-btn {
+  position: fixed;
+  left: 30rpx;
+  right: 30rpx;
+  bottom: 16rpx;
+  z-index: 95;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 690rpx;
+  height: 80rpx;
+  font-size: 32rpx;
+  color: #333233;
+  background-color: #fff;
+  border-radius: 4px;
+  border: none;
+}
+.add-btn::after {
+    border: 1px solid #333233;
+}
+.header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 35rpx;
+}
+.title {
+  font-size: 34rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #333333;
+}
+.cancel-icon {
+  font-size: 34rpx;
+  color: #999999;
+}
+.check {
+  padding-left: 17rpx;
+  color: #FF7E28;
+}
+.select-box {
+  height: 1024rpx;
+}
+.select-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 50rpx;
+  margin-bottom: 20rpx;
+  border-bottom: 1px solid #F6F6F6;
+}
+.select-list {
+  width: 120rpx;
+  height: 40rpx;
+  text-align: center;
+  overflow: hidden;
+  /*超出部分隐藏*/
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  /* 超出部分显示省略号 */
+  white-space: nowrap;
+  /*规定段落中的文本不进行换行 */
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #333233;
+  margin-right: 30rpx;
+  border-bottom: 1px solid #FFFFFF;
+}
+.select-list-cont {
+  padding-left: 67rpx;
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+  line-height: 40px;
+}
+.selected {
+  border-bottom: 1px solid #F0AD4E;
+  color: #ff8500;
+}
+
